@@ -1,0 +1,48 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  /* background-image: url("images/moyen.jpg");
+  height: 100vh;
+  background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* object-fit: cover; */
+/* } */ 
+
+.infos {
+  text-align: center;
+  background-color: rgba(255, 255, 255, .4);
+}
+
+#ville {
+    font-size: 100px;
+}
+
+#temp {
+  font-size: 50px;
+}
+
+#desc {
+  font-size: 50px;
+}
+
+.backgroundchaud {
+  background-image: url("images/beach.jpg");
+  height: 100vh;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* object-fit: cover; */
+}
+
+.backgroundfroid {
+  background-image: url("images/snow.jpg");
+  height: 100vh;
+  background-position: center;
+}
+
+.zonecanvas{
+  background-color: rgba(255, 255, 255, .4);
+}
