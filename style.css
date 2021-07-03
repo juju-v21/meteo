@@ -30,7 +30,7 @@
 }
 
 .backgroundchaud {
-  background-image: url("images/beach.jpg");
+  background-image: url("beach.jpg");
   height: 100vh;
   background-position: center;
   /* background-repeat: no-repeat; */
@@ -38,7 +38,7 @@
 }
 
 .backgroundfroid {
-  background-image: url("images/snow.jpg");
+  background-image: url("snow.jpg");
   height: 100vh;
   background-position: center;
 }
