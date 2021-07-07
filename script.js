@@ -11,7 +11,7 @@
 
   button.addEventListener('click', function() {
 
-    fetch('https://api.openweathermap.org/data/2.5/weather?q='+tapez.value+'&units=metric&appid=44cceb207739b0a0c77ee4bc3caeafd8')
+    fetch('')
     // ++ incremente
     .then(response => response.json())
     .then(data => {
@@ -50,7 +50,7 @@
 
     if(monGraph) monGraph.destroy();
 
-    fetch('https://api.openweathermap.org/data/2.5/forecast?q='+tapez.value+'&units=metric&appid=44cceb207739b0a0c77ee4bc3caeafd8')
+    fetch('')
     .then(response => response.json())
     .then(data => {
 
